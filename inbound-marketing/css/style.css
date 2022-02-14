@@ -90,10 +90,57 @@ footer p {
     color: #fff;
 }
 img {
-    width: 600px;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 10px;
 }
 .form {
-    padding-left: 300px;
+    padding-left: 210px;
     padding-top: 50px;
+}
+
+@media (max-width: 550px){
+.main-container { 
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+}
+header {
+    background-color: #fff;
+    float: center;
+    font-size: 3.5rem;
+    width: 100%;
+    border-bottom: 1px solid rgb(24, 82, 46);
+}
+section {
+    background-color: #fff;
+    display: block;
+    float: center;
+    font-size: 1.5rem;
+    width: 100%; 
+}
+section nav {
+    display: inline;
+    text-align: center;
+    width: 100%;
+}
+section article {
+    float: left;
+    display: inline;
+    width: 100%;
+}
+.form {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.conteiner {
+    float: left;
+    text-align: center;
+    width: 100%;
+    min-width: 320px
+}
+nav ul {
+    width: 100%;
+}
 }
