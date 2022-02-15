@@ -11,7 +11,6 @@ html {
     width: 100%;
     margin: 0 auto;
     display: block;
-    float: left;
 }
 header {
     background-color: #fff;
@@ -96,11 +95,88 @@ img {
 }
 .form {
     padding-left: 21git s0px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
-
+#banner {
+    background-image: url(../imagens/bg-imagem.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+.legenda-conteiner {
+    line-height: 1.5;
+    width: 20vw;
+    float: right;
+    margin: 5vw 5vw 0 0;
+}
+.legenda {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    width: 20vw;
+    float: right;
+    margin: 5vw 5vw 0 0;
+}
+.legenda h4 {
+    color: rgb(24, 82, 46);
+    font-size: x-large;
+}
+.button-cta {
+    float: right;
+    background-color: rgb(241, 130, 25);
+    color: #fff;
+    font-size: 2rem;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    display: inline;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 1vw 1vw 0 0;
+}
+#saiba-mais {
+    background-color: #fff;
+    padding: 40px 0px;
+}
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+dl {
+    margin: 20px 0;
+}
+dt {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+dd {
+    margin-top: 4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
 @media (max-width: 550px){
-.main-container { 
+
+.legenda {
+        background-color: rgba(255, 255, 255, .6);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+        width: 20vw;
+        float: right;
+        margin: 5vw 5vw 0 0;
+    }
+    .main-container { 
     display: block;
     width: 100vw;
     margin: 0 auto;
