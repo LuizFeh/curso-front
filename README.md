@@ -24,7 +24,7 @@
 - \\     Desejo    //
 -   \     Ação    /           call-to-action 4% - 20%
 
--      LEAD (e-mail)
+      LEAD (e-mail)
 ### Briefing
 - Criar uma campanha de inbound marketing para divulgar seus serviços de criação de sites, landing pages e e-mail marketing
 - Gerar leads qualificados, com real interesse nos serviços oferecidos
@@ -32,4 +32,4 @@
 - Criar formulários para captação de e-mails
 - Post para redes sociais: texto + foto + url curta
 - Incluir hospedagem (servidor web)
-- Git - histórico de evolução (commits detalhados)
+-Git - histórico de evolução (commits detalhados)
